@@ -154,6 +154,7 @@ main h2 {
 }
 
 #lanches article {
+    display: none;
     background: var(--colorMark);
     border-radius: 20px;
     padding: 2rem;
@@ -161,15 +162,26 @@ main h2 {
     margin: 0 6rem;
     margin-bottom: 3rem;
 }
+#lanches article.active {
+    display: block;
+}
 .img-lanche {
     width: 100%;
     height: 300px;
-    background-image: url(../assets/hamburguer1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     margin-bottom: 1.5rem;
+}
+#slide-img-1 {
+    background-image: url(../assets/hamburguer1.jpg);
+}
+#slide-img-2 {
+    background-image: url(../assets/hamburguer2.jpg);
+}
+#slide-img-3 {
+    background-image: url(../assets/hamburguer3.jpg);
 }
 
 .titulo-lanche, .preco-lanche {
